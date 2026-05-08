@@ -213,6 +213,4 @@ traffic_rag/
 
 ---
 
-## 8. License & tác giả
 
-Đồ án tốt nghiệp 2026 — Mạc Phú Phong.
