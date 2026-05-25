@@ -1,3 +1,4 @@
+# Developed by: Hoàng Xuân Đức - Đại học Khoa học Tự nhiên, Đại học Quốc gia Hà Nội (KHTN ĐHQGHN)
 """RAG Core — retrieval and generation components for Traffic Law RAG."""
 
 from .retriever import TrafficHybridRetriever
