@@ -1,3 +1,4 @@
+# Developed by: Hoàng Xuân Đức - Đại học Khoa học Tự nhiên, Đại học Quốc gia Hà Nội (KHTN ĐHQGHN)
 # -*- coding: utf-8 -*-
 """
 indexer.py — Phase 2: Qdrant Vector Indexing Pipeline
