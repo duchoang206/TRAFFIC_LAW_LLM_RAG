@@ -1,4 +1,5 @@
 # Traffic RAG — Trợ lý Pháp luật Giao thông Việt Nam
+### Phát triển bởi: Hoàng Xuân Đức - Đại học Khoa học Tự nhiên, Đại học Quốc gia Hà Nội (KHTN ĐHQGHN)
 
 Hệ thống **Agentic RAG** trả lời câu hỏi về pháp luật giao thông đường bộ Việt Nam, có **Human-in-the-Loop** (HITL) phê duyệt câu trả lời từ web khi corpus nội bộ không đủ.
 
@@ -39,7 +40,7 @@ Hệ thống **Agentic RAG** trả lời câu hỏi về pháp luật giao thôn
               +---------------+
 ```
 
-**Pipeline ingestion** (offline, idempotent — xem [doc/bao_cao_he_thong.md](doc/bao_cao_he_thong.md) §2):
+**Pipeline ingestion** (offline, idempotent — xem báo cáo hệ thống §2):
 
 ```
 Data/raw/*.pdf
@@ -184,10 +185,6 @@ traffic_rag/
 │   ├── cleaned/                                        # markdown sau clean
 │   └── all_chunks.jsonl                                # 2 818 chunk
 ├── checkpoints/graph.db       # SQLite cho LangGraph (HITL state)
-├── doc/
-│   ├── bao_cao_he_thong.md    # Báo cáo đồ án (full)
-│   ├── implementation_plan.md # Lệnh chạy chi tiết
-│   └── video_script.md        # Kịch bản video demo
 ├── tests/                     # pytest suite
 ├── docker-compose.yml         # qdrant + (optional) backend container
 └── requirements.txt           # ở gốc GitHub1/, không phải trong traffic_rag/
@@ -205,11 +202,7 @@ traffic_rag/
 
 ---
 
-## 7. Tham khảo
 
-- Báo cáo đầy đủ: [doc/bao_cao_he_thong.md](doc/bao_cao_he_thong.md)
-- Hướng dẫn chạy chi tiết từng bước: [doc/implementation_plan.md](doc/implementation_plan.md)
-- Kịch bản video demo: [doc/video_script.md](doc/video_script.md)
 
 ---
 
