@@ -1,3 +1,4 @@
+# Developed by: Hoàng Xuân Đức - Đại học Khoa học Tự nhiên, Đại học Quốc gia Hà Nội (KHTN ĐHQGHN)
 # -*- coding: utf-8 -*-
 """
 retriever.py — Phase 3: Hybrid Retriever (Dense + BM25, RRF fusion)
