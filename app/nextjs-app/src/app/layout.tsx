@@ -1,3 +1,4 @@
+// Developed by: Hoàng Xuân Đức - Đại học Khoa học Tự nhiên, Đại học Quốc gia Hà Nội (KHTN ĐHQGHN)
 import type { Metadata } from 'next';
 import { Inter, Source_Serif_4 } from 'next/font/google';
 import './globals.css';
