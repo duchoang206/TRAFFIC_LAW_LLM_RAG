@@ -1,3 +1,4 @@
+# Developed by: Hoàng Xuân Đức - Đại học Khoa học Tự nhiên, Đại học Quốc gia Hà Nội (KHTN ĐHQGHN)
 # -*- coding: utf-8 -*-
 """
 clean_thongtu_pdfs.py — Giai đoạn 2: Trích xuất và làm sạch dữ liệu Thông tư
